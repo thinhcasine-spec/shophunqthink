@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dịch Vụ Số - Uy Tín & Chất Lượng</title>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
     <style>
         :root { 
             --neon-cyan: #00f3ff; 
@@ -14,10 +14,10 @@
         }
         
         body { 
+            /* Phần mô tả dùng font chữ nét thanh để dễ đọc */
             font-family: 'Rajdhani', sans-serif; 
             margin: 0; 
             background-color: var(--dark-bg); 
-            /* Tạo hiệu ứng lưới nền (Grid) Cyberpunk */
             background-image: 
                 linear-gradient(rgba(0, 243, 255, 0.05) 1px, transparent 1px),
                 linear-gradient(90deg, rgba(0, 243, 255, 0.05) 1px, transparent 1px);
@@ -36,12 +36,11 @@
 
         h1 { 
             margin: 0; 
-            font-family: 'Orbitron', sans-serif;
+            font-family: 'Bungee', cursive; /* Dùng font Bungee cho tiêu đề chính */
             font-size: 2.8em; 
             text-transform: uppercase; 
             letter-spacing: 3px; 
             color: #fff;
-            /* Hiệu ứng chữ phát sáng Neon */
             text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px var(--neon-cyan), 0 0 40px var(--neon-cyan);
         }
 
@@ -76,7 +75,6 @@
             backdrop-filter: blur(5px);
         }
 
-        /* Viền sáng chạy ngang thẻ khi hover */
         .service-card::before {
             content: '';
             position: absolute;
@@ -98,12 +96,13 @@
         }
 
         .service-card h3 { 
-            font-family: 'Orbitron', sans-serif;
+            font-family: 'Bungee', cursive; /* Dùng font Bungee cho 4 mục tiêu đề */
             color: var(--neon-cyan); 
             font-size: 1.5rem; 
             margin-bottom: 15px; 
             text-shadow: 0 0 5px rgba(0, 243, 255, 0.5);
-            letter-spacing: 1px;
+            letter-spacing: 1.5px;
+            text-transform: uppercase; /* Lệnh ép in hoa toàn bộ chữ */
         }
 
         .service-card p { 
@@ -120,8 +119,8 @@
             border: 1px solid var(--neon-cyan);
             border-radius: 4px; 
             text-decoration: none; 
-            font-family: 'Orbitron', sans-serif;
-            font-weight: bold; 
+            font-family: 'Bungee', cursive; /* Dùng font Bungee cho các nút bấm */
+            font-size: 0.9rem;
             letter-spacing: 1px;
             text-transform: uppercase;
             margin-top: 15px; 
